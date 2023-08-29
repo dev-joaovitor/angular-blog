@@ -9,11 +9,13 @@ export class SmallPostComponent implements OnInit {
   @Input()
   profilePicture: string = '';
   @Input()
-  date: string = '';
+  postDate: string = '';
   @Input()
   postTitle: string = ''
   @Input()
   postContent: string = ''
+  @Input()
+  postId: string = ''
 
   ngOnInit() {
     console.log("> Small post init");

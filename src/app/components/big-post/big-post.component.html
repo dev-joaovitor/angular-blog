@@ -5,5 +5,5 @@
     </h1>
     <img id="image__big-post" src="{{postImage}}" alt="">
     <p id="content__big-post">{{postContent}}</p>
-    <a href="#">Read more</a>
+    <a [routerLink]="['content', postId]">Read more</a>
 </article>

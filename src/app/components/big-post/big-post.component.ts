@@ -14,6 +14,8 @@ export class BigPostComponent implements OnInit{
   postTitle: string = ''
   @Input()
   postContent: string = ''
+  @Input()
+  postId: string = "";
   
   ngOnInit(): void {
     console.log("> Big post init");
