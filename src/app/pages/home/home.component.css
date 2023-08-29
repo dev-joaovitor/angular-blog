@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    margin-top: 50px;
+    padding: 1rem;
+    max-width: 200px;
+}

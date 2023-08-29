@@ -1,0 +1,34 @@
+#container__big-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#title__big-post,
+#date__big-post,
+#image__big-post,
+#content__big-post {
+    margin-bottom: 10px;
+}
+
+#title__big-post {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+#date__big-post {
+    font-size: 0.3em;
+    align-self: flex-start;
+}
+#image__big-post {
+    width: 100%;
+    max-width: 730px;
+}
+#content__big-post {
+    text-align: justify;
+    width: 75%;
+    max-width: 710px;
+}
