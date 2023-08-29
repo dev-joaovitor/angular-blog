@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    font-size: 14pt;
 }
 
 
@@ -25,10 +26,19 @@
 }
 #image__big-post {
     width: 100%;
-    max-width: 730px;
+    max-width: 1000px;
 }
 #content__big-post {
     text-align: justify;
     width: 75%;
-    max-width: 710px;
+    max-width: 810px;
+}
+a {
+    font-weight: 700;
+    margin: 6px;
+    text-decoration: none;
+    transition: all 300ms;
+}
+a:hover {
+    transform: translateX(10px)
 }

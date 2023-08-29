@@ -8,9 +8,11 @@ article > * {
 }
 
 img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
     border-radius: 50%;
-    max-width: 40px;
-    
+    border: 2px solid #111;
+    max-width: 50px;
 }
 
 a {

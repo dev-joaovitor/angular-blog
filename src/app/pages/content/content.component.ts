@@ -1,18 +1,18 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-small-post',
-  templateUrl: './small-post.component.html',
-  styleUrls: ['./small-post.component.css']
+  selector: 'app-content',
+  templateUrl: './content.component.html',
+  styleUrls: ['./content.component.css']
 })
-export class SmallPostComponent implements OnInit {
-  @Input()
+export class ContentComponent implements OnInit {
+  // @Input()
   profilePicture: string = '';
-  @Input()
+  // @Input()
   date: string = '';
-  @Input()
+  // @Input()
   postTitle: string = ''
-  @Input()
+  // @Input()
   postContent: string = ''
 
   ngOnInit() {
